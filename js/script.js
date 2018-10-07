@@ -1,6 +1,6 @@
 function get_report (location) {
 	var JSONdata;
-	var request_string = "http://api.openweathermap.org/data/2.5/weather?q="+location
+	var request_string = "https://api.openweathermap.org/data/2.5/weather?q="+location
 	+"&units=metric&APPID=8553cbf41e559f3ffdfa68eafb8a08f9"
 	 var xhttp = new XMLHttpRequest();
   xhttp.onreadystatechange = function() {
