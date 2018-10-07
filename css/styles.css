@@ -6,7 +6,7 @@ body {
   background-size: cover;
 }
 .form-group{
-	height: 100%;
+
 	display: flex;
 	justify-content: center;
 	text-align: center;
@@ -15,13 +15,14 @@ body {
 	width: 496px;
 	margin-right: 10px;
 }
-#text_area_container{
-	margin-top: 50px;
-	height: 100%;
-	justify-content: center;
+.text_area_container{
 	text-align: center;
-	display: none;
+	margin:auto;
 }
-#output_text_area{
+div > p {
+	display: none;
 	text-align: center;
+	background: #FFFFFF;
+	padding: 10px;
+
 }
